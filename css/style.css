@@ -78,3 +78,22 @@ body {
   margin-right: 43px;
   margin-top: 11px;
 }
+
+.header-content {
+  background-image: url('../images/header-bg.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.header-title {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 95px;
+  color: #001e64;
+  max-width: 589px;
+  padding-top: 200px;
+  padding-left: 112px;
+  margin-bottom: 130px;
+}
