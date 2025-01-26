@@ -302,3 +302,35 @@ body {
   border-radius: 20px;
   cursor: pointer;
 }
+
+.seafood {
+  background-image: url('../images/sefood-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: cover;
+  padding: 290px 0 98px;
+  margin-bottom: 100px;
+}
+
+.seafood-items {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+  display: flex;
+  justify-content: space-around;
+}
+
+.seafood-item {
+  width: 180px;
+  min-height: 185px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../images/seafood-icon-decor.svg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
