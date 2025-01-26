@@ -197,3 +197,56 @@ body {
 .header-content-link-activ {
   font-weight: 700;
 }
+
+.product {
+  padding-top: 100px;
+}
+
+.product-inner {
+  display: flex;
+  justify-content: space-between;
+}
+
+.product-name {
+  width: 510px;
+  text-align: center;
+  padding-top: 41px;
+}
+
+.product-name-item + .product-name-item {
+  margin-top: 30px;
+}
+
+.product-name-item {
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 32px;
+  cursor: pointer;
+}
+
+.product-name-item.slick-current {
+  font-weight: 700;
+  font-size: 36px;
+
+  color: #001e64;
+}
+
+.slick-product-prev {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.slick-product-prev,
+.slick-product-next {
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  cursor: pointer;
+}
+
+.product-content {
+  width: 600px;
+}
