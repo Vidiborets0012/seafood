@@ -336,31 +336,50 @@ body {
 }
 
 .info {
+  margin-bottom: 100px;
 }
 
 .info-items {
+  margin-bottom: 100px;
 }
 
 .info-item {
-}
-
-.info-item-content {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
 }
 
 .info-item-title {
+  max-width: 490px;
+  margin-bottom: 30px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #001e64;
 }
 
 .info-item-text {
+  max-width: 420px;
+  margin-bottom: 20px;
 }
 
-.info-item-img {
+.info-item-text-right .info-item-title {
+  max-width: 420px;
+}
+
+.info-item-text-right .info-item-content {
+  margin-right: 180px;
 }
 
 .info-blockquote {
-}
-
-.info-blockquote-img {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .info-blockquote-text {
+  max-width: 628px;
+  margin: 0 auto;
+  font-size: 18px;
 }
