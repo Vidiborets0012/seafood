@@ -383,3 +383,39 @@ body {
   margin: 0 auto;
   font-size: 18px;
 }
+
+.contacts {
+  background-image: url(../images/contacts-bg.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom left;
+  margin-bottom: 30px;
+}
+
+.contacts-box {
+  width: 390px;
+  margin-left: auto;
+  background-color: #fff;
+  padding: 33px 0 33px 20px;
+}
+
+.contacts-box-text {
+  width: 195px;
+  font-family: 'Roboto Slab', sans-serif;
+  font-size: 18px;
+  line-height: 24px;
+  color: #001e64;
+  margin-bottom: 30px;
+}
+
+.contacts-box-list {
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.contacts-box-item {
+  margin-top: 30px;
+}
+
+.contacts-box-item span {
+  display: block;
+}
