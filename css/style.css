@@ -181,6 +181,12 @@ body {
   display: inline-block;
   transform: translateY(-100px);
   position: absolute;
+  transition: all 0.3s;
+}
+
+.header-content-btn:hover {
+  color: #001e64;
+  background-color: #fff;
 }
 
 .header-content-box {
@@ -301,6 +307,12 @@ body {
   border: 1px solid #001e64;
   border-radius: 20px;
   cursor: pointer;
+  transition: all 0.5s;
+}
+
+.product-content-btn:hover {
+  color: #fff;
+  background-color: #001e64;
 }
 
 .seafood {
