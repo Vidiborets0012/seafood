@@ -419,3 +419,36 @@ body {
 .contacts-box-item span {
   display: block;
 }
+
+.footer {
+  padding-bottom: 110px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0 45px 0 23px;
+}
+
+.footer-social-list {
+  display: flex;
+  align-items: center;
+  padding-bottom: 22px;
+}
+
+.footer-inner .menu {
+  padding-bottom: 31px;
+}
+
+.footer-social-item + .footer-social-item {
+  margin-left: 10px;
+}
+
+.footer-social-link path {
+  transition: all 0.5s;
+}
+
+.footer-social-link:hover path {
+  fill: #001e64;
+}
