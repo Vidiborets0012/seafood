@@ -191,7 +191,7 @@ body {
 
 .header-content-box {
   display: flex;
-  margin-left: 100%;
+  justify-content: flex-end;
   margin-right: 30px;
   font-size: 18px;
   line-height: 21px;
@@ -463,4 +463,144 @@ body {
 
 .footer-social-link:hover path {
   fill: #001e64;
+}
+
+.menu-btn {
+  width: 40px;
+  border: none;
+  background-color: transparent;
+  padding: 13px 0;
+  cursor: pointer;
+  position: relative;
+  display: none;
+}
+
+.menu-btn span {
+  display: block;
+  height: 4px;
+  background-color: #001e64;
+}
+
+.menu-btn::after,
+.menu-btn::before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background-color: #001e64;
+}
+
+.menu-btn::after {
+  bottom: 0;
+}
+
+.menu-btn::before {
+  top: 0;
+}
+
+@media screen and (max-width: 1000px) {
+  .menu-list {
+    position: absolute;
+    left: 20%;
+    right: 20%;
+    top: -350px;
+    background-color: #fff;
+    display: block;
+    transition: all 0.5s;
+    z-index: 5;
+  }
+
+  .menu-list.menu-list-active {
+    top: 64px;
+  }
+
+  .menu-btn {
+    display: block;
+    z-index: 10;
+  }
+
+  .menu {
+    margin-left: auto;
+    margin-top: 12px;
+    margin-right: 44px;
+  }
+
+  .menu-list-link {
+    display: block;
+    padding: 20px 0;
+    text-align: center;
+    /* pointer-events: none; */
+  }
+
+  .menu-list-link:hover {
+    /* border-bottom: 1px solid #001e64; */
+    border: none;
+  }
+}
+
+@media screen and (max-width: 745px) {
+  .header-title {
+    font-size: 50px;
+    line-height: 66px;
+    max-width: 100%;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 470px) {
+  .header-title {
+    font-size: 34px;
+    line-height: 44px;
+  }
+
+  .header-slider {
+    padding-left: 50px;
+  }
+
+  .slick-dots {
+    left: 5px;
+  }
+
+  .slick-prev,
+  .slick-next {
+    left: 9px;
+  }
+
+  .header-content-btn {
+    margin-left: 50px;
+  }
+}
+
+@media screen and (max-width: 360px) {
+  .header-title {
+    padding-top: 125px;
+  }
+
+  .menu {
+    margin-right: 20px;
+  }
+
+  .menu-list {
+    left: 10%;
+    right: 10%;
+  }
+
+  .phone {
+    margin-right: 0;
+  }
+
+  .header-logo {
+    margin-left: 0;
+  }
+
+  .header-slider {
+    padding-top: 0;
+    padding-left: 0;
+  }
+
+  .header-content-btn {
+    margin-left: 0;
+  }
 }
