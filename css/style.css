@@ -664,6 +664,16 @@ body {
   .info-items {
     margin-bottom: 50px;
   }
+
+  .contacts {
+    background-image: none;
+  }
+
+  .contacts-box {
+    width: 100%;
+    margin-left: 0;
+    padding: 33px 0 33px 0;
+  }
 }
 
 @media screen and (max-width: 600px) {
@@ -708,7 +718,7 @@ body {
   }
 }
 
-@media screen and (max-width: 360px) {
+@media screen and (max-width: 370px) {
   .header-title {
     padding-top: 125px;
   }
