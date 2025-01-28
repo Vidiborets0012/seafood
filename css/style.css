@@ -608,6 +608,10 @@ body {
   .product-content {
     width: 100%;
   }
+
+  .seafood {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 600px) {

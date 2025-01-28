@@ -37,7 +37,9 @@ $(function () {
                     arrows: false,
                     dots: true
 
-                },
+                }
+            },
+            {
                 breakpoint: 601,
                 settings: {
                     vertical: false,
