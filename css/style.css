@@ -503,6 +503,23 @@ body {
   .product-name {
     width: 350px;
   }
+
+  .footer .menu,
+  .footer-logo {
+    display: none;
+  }
+
+  .footer {
+    padding: 40px 0 40px;
+  }
+
+  .footer-inner {
+    justify-content: center;
+  }
+
+  .footer-social-list {
+    padding-bottom: 0;
+  }
 }
 
 @media screen and (max-width: 1100px) {
